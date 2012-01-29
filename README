@@ -17,8 +17,13 @@ chkStr='.+GET.+HTTP/1\.1" 404.+"ZmEu"'
 
 注意：
 β版なので、期待しない。
-「iptables」を使用しているのでその使い方は知っていたほうがいい。
+「iptables」にアクセス拒否を登録します。
 
 使用条件：
 ファイルの更新監視には「inotify」を使用しているので、inotifyがインストールされていること。
 Debian、Ubuntuの場合、「apt-get install inotify-tools」でインストール！
+
+
+詳細は下記を参照
+http://brokendish.org/debian/1711/
+http://brokendish.org/debian/1703/
